@@ -1,17 +1,20 @@
 import React from 'react';
 import './App.css';
 
-import HomePage from './homepage.component'
+import Homepage from './page/homepage/homepage.component.jsx'
 
 
 class App extends React.Component{
   render(){
     return(
       <div>
-      <HomePage/>
+      
+      <Homepage/>
       </div>
     )
   }
 }
+
+
 
 export default App;
